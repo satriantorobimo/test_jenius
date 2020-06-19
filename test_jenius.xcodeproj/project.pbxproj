@@ -15,6 +15,8 @@
 		F5C7908D249C6866001162A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C7908B249C6866001162A6 /* LaunchScreen.storyboard */; };
 		F5C79098249C6866001162A6 /* test_jeniusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C79097249C6866001162A6 /* test_jeniusTests.swift */; };
 		F5C790A3249C6866001162A6 /* test_jeniusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C790A2249C6866001162A6 /* test_jeniusUITests.swift */; };
+		F5C790B1249C68B8001162A6 /* ContactAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C790B0249C68B8001162A6 /* ContactAPI.swift */; };
+		F5C790B3249C68D4001162A6 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C790B2249C68D4001162A6 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F5C7909E249C6866001162A6 /* test_jeniusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test_jeniusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C790A2249C6866001162A6 /* test_jeniusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_jeniusUITests.swift; sourceTree = "<group>"; };
 		F5C790A4249C6866001162A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C790B0249C68B8001162A6 /* ContactAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactAPI.swift; sourceTree = "<group>"; };
+		F5C790B2249C68D4001162A6 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				F5C79089249C6866001162A6 /* Assets.xcassets */,
 				F5C7908B249C6866001162A6 /* LaunchScreen.storyboard */,
 				F5C7908E249C6866001162A6 /* Info.plist */,
+				F5C790B0249C68B8001162A6 /* ContactAPI.swift */,
+				F5C790B2249C68D4001162A6 /* Contacts.swift */,
 			);
 			path = test_jenius;
 			sourceTree = "<group>";
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C79085249C6864001162A6 /* ViewController.swift in Sources */,
+				F5C790B1249C68B8001162A6 /* ContactAPI.swift in Sources */,
 				F5C79081249C6864001162A6 /* AppDelegate.swift in Sources */,
 				F5C79083249C6864001162A6 /* SceneDelegate.swift in Sources */,
+				F5C790B3249C68D4001162A6 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
